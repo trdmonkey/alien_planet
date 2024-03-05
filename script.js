@@ -7,18 +7,41 @@ window.addEventListener('load', function() {
     canvas.width = 500;
     canvas.height = 500;
 
-    class inputHandler {
+    class InputHandler {
 
     }
     // projectile, particle, player
-    class projectile {
+    class Projectile {
 
     }
-    class particle {
+    class Particle {
 
     }
-    class player {
-        
+    class Player {
+
+        constructor(game) {
+            this.game = game;
+            this.width = 120;
+            this.height = 190;
+            this.x = 20;
+            this.y = 100;
+        }
+
+    }
+    class Enemy {
+
+    }
+    class Layer {
+
+    }
+    class Background {
+
+    }
+    class UI {
+
+    }
+    class Game {
+
     }
 
 });
